@@ -7,7 +7,7 @@ import cv2 as cv
 import numpy as np
 
 video_cam = cv.VideoCapture(0)
-video = cv.VideoCapture('videos/presidente.mp4')
+video = cv.VideoCapture('videos/espaco.mp4')
 _, frame1 = video_cam.read()
 
 video_FourCC = int(video_cam.get(cv.CAP_PROP_FOURCC))
